@@ -1,0 +1,46 @@
+/* Navbar.module.css */
+
+.header {
+  padding: 1rem 2rem;
+  background-color: #E5E5E5;
+  display: flex;
+  align-items: center; /* Center the items vertically */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between; /* Space between logo and nav items */
+  width: 100%; /* Ensure the nav takes full width */
+}
+
+.logoContainer {
+  flex: 0 0 auto; /* Prevent logo from growing */
+}
+
+.logo {
+  width: 50px; /* Set a fixed width for the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin-left: auto; /* Shift the nav items to the right */
+}
+
+.nav a {
+  color: rgb(8, 7, 7);
+  text-decoration: none;
+  font-size: medium;
+}
+.nav a {
+  color: rgb(8, 7, 7);
+  text-decoration: none;
+  font-size: medium;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.nav a:hover {
+  color: #00f3ba; /* Change to your desired hover color */
+}

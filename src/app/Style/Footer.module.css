@@ -1,0 +1,51 @@
+/* Footer.module.css */
+.footer {
+    background-color: #E5E5E5; /* Light background color for seamless look */
+    color: rgb(16, 14, 14); /* Text color for visibility */
+    padding: 60px 60px; /* Padding for spacing */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between name and icons */
+    align-items: center; /* Center vertically */
+    position: relative; /* Allows for absolute positioning of items if needed */
+}
+
+.container {
+    max-width: 2000px; /* Max width for the content */
+    margin: 0 auto; /* Center the container */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Aligns items left and right */
+    width: 100%; /* Full width of the footer */
+}
+
+.socialIcons {
+    display: flex; /* Use flexbox for icons */
+    justify-content: flex-end; /* Align icons to the right */
+}
+
+.icon {
+    color: rgb(16, 14, 14); /* Icon color */
+    margin: 0 10px; /* Space between icons */
+    transition: transform 0.5s, color 0.3s; /* Smooth scaling and color change effect */
+    font-size: 1.5rem; /* Icon size */
+}
+
+.icon:hover {
+    transform: scale(1.2); /* Scale up on hover */
+    color: #448598; /* Change icon color on hover */
+}
+
+.rights {
+    font-size: 0.9rem; /* Smaller font size for rights text */
+    margin-top: 10px; /* Space above the rights text */
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0); /* Clip the text */
+    white-space: nowrap; /* Prevent wrapping */
+}

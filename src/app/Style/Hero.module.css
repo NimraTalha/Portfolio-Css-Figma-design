@@ -1,0 +1,17 @@
+.hero {
+  text-align: center; /* Center align text */
+  padding: 2rem; /* Padding for space */
+  background-color: #E5E5E5; /* Background color */
+  color: rgb(18, 18, 18); /* Text color */
+}
+
+.hero h1 {
+  font-size: 2.5rem; /* Large font size for heading */
+  font-weight: bold; /* Bold font weight */
+}
+
+.hero p {
+  font-size: 1.25rem; /* Font size for the paragraph */
+  margin-top: 1rem; /* Space above the paragraph */
+  font-weight: 500; /* Extra bold font weight */
+}
