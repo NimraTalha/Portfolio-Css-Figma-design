@@ -28,3 +28,9 @@ html,
     -webkit-text-size-adjust: 100%; /* For older browsers that require the prefix */
     text-size-adjust: 100%; /* Standard property for modern browsers */
 }
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  

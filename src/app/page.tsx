@@ -17,13 +17,13 @@ export default function Home() {
         <>
             <Navbar />
             <div className={styles.homeContainer}>
-                <section className={styles.homeSection}>
+                <section id="home" className={styles.homeSection}>
                     {/* Profile Details */}
                     <div className={styles.profileDetails}>
                         <h1 className={styles.name}>Nimra Talha</h1>
                         <p className={styles.jobTitle}>Creative Developer</p>
                         <p className={styles.details}>
-                            {detailsText} {/* Display the full text directly */}
+                            {detailsText}
                         </p>
                     </div>
 
@@ -39,9 +39,21 @@ export default function Home() {
                     </div>
                 </section>
 
-                <Hero />
-                <Portfolio />
-                <Contact />
+                {/* Hero Section */}
+                <section id="portfolio">
+                    <Hero />
+                </section>
+
+                {/* Portfolio Section */}
+                <section id="portfolio">
+                    <Portfolio />
+                </section>
+
+                {/* Contact Section */}
+                <section id="contact">
+                    <Contact />
+                </section>
+
                 <Footer />
             </div>
         </>

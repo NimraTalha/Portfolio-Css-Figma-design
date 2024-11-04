@@ -14,33 +14,24 @@ const Navbar: React.FC = () => {
     >
       <nav className={styles.nav}>
         <ul>
-          <li>
-            <motion.a
-              href="#home"
-              whileHover={{ scale: 1.1 }} // Scale up on hover
-              transition={{ type: "spring", stiffness: 300 }}
-            >
-              Home
-            </motion.a>
-          </li>
-          <li>
-            <motion.a
-              href="#portfolio"
-              whileHover={{ scale: 1.1 }} // Scale up on hover
-              transition={{ type: "spring", stiffness: 300 }}
-            >
-              Portfolio
-            </motion.a>
-          </li>
-          <li>
-            <motion.a
-              href="#contact"
-              whileHover={{ scale: 1.1 }} // Scale up on hover
-              transition={{ type: "spring", stiffness: 300 }}
-            >
-              Contact
-            </motion.a>
-          </li>
+          <motion.li
+            whileHover={{ scale: 1.1 }} 
+            transition={{ type: "spring", stiffness: 300 }}
+          >
+            <a href="#home">Home</a>
+          </motion.li>
+          <motion.li
+            whileHover={{ scale: 1.1 }} 
+            transition={{ type: "spring", stiffness: 300 }}
+          >
+            <a href="#portfolio">Portfolio</a>
+          </motion.li>
+          <motion.li
+            whileHover={{ scale: 1.1 }} 
+            transition={{ type: "spring", stiffness: 300 }}
+          >
+            <a href="#contact">Contact</a>
+          </motion.li>
         </ul>
       </nav>
     </motion.header>
