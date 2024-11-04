@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 
 import { motion } from "framer-motion";
 import styles from "../app/Style/Portfolio.module.css"; 
@@ -50,7 +50,7 @@ const Portfolio: React.FC = () => {
               className={styles.projectImage}
               width={200}
               height={200}
-              objectFit="cover"
+              priority // Added priority prop
             />
             <h3 className={styles.projectTitle}>{project.title}</h3>
           </motion.a>

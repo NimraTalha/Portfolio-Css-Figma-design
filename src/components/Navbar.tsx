@@ -13,15 +13,6 @@ const Navbar: React.FC = () => {
       transition={{ type: "spring", stiffness: 60 }}
     >
       <nav className={styles.nav}>
-        <div className={styles.logoContainer}>
-          <motion.img
-            src="/path/to/logo.png"
-            alt="Logo"
-            className={styles.logo}
-            whileHover={{ scale: 1.1 }} // Scale up on hover
-            transition={{ type: "spring", stiffness: 300 }} // Smooth transition
-          />
-        </div>
         <ul>
           <li>
             <motion.a

@@ -21,3 +21,10 @@ body {
         font-size: 0.9rem; /* Smaller font size on smaller screens */
     }
 }
+
+html,
+
+:host {
+    -webkit-text-size-adjust: 100%; /* For older browsers that require the prefix */
+    text-size-adjust: 100%; /* Standard property for modern browsers */
+}
